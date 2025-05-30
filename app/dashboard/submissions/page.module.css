@@ -1,0 +1,12 @@
+.submissions {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.submissions h1 {
+  color: #fff;
+  font-family: "montreal", sans-serif;
+  font-size: 2rem;
+}

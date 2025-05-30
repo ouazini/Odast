@@ -1,0 +1,42 @@
+.review {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.review h1 {
+  color: #000;
+  font-family: "montreal", sans-serif;
+  font-size: 2rem;
+  width: 70%;
+  text-align: center;
+}
+
+.review p {
+  color: #989898;
+  font-family: "sans", sans-serif;
+  letter-spacing: 0.025rem;
+  width: 30%;
+  text-align: center;
+}
+
+.homeLink button {
+  font-family: "montreal", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 0.025rem;
+  padding: 0.8rem 1rem;
+  border-radius: 10rem;
+  cursor: pointer;
+}

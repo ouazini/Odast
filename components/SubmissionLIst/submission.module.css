@@ -1,0 +1,63 @@
+.submissionCard {
+  border: 1px solid #cccccc6b;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.submissionCard p {
+  color: #fff;
+  font-family: "montreal", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.025rem;
+}
+
+.toggleButton {
+  color: #fff;
+  font-family: "montreal", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.025rem;
+}
+
+.flexDIv {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: start;
+  align-items: start;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btns button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-family: "montreal", sans-serif;
+  font-size: 1rem;
+}
+
+.messageBox {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  border: 1px solid #fff;
+
+  border-radius: 0.25rem;
+}
+
+.messageBox p {
+  padding: 1rem;
+}
+
+.no {
+  color: red;
+  font-family: "montreal", sans-serif;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+}

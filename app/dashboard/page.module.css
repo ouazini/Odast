@@ -1,0 +1,131 @@
+.dashboard {
+  width: 100%;
+  height: 200vh;
+  background-color: #171717;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.flex h1 {
+  color: #fff;
+  font-family: "montreal", sans-serif;
+  font-size: 2rem;
+}
+
+.content h3,
+.btns h3 {
+  color: #ccc;
+  font-family: "montreal", sans-serif;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+}
+
+.content p {
+  color: #fff;
+  font-family: "sans", sans-serif;
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.btns {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btns a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "sans", sans-serif;
+  font-size: 1rem;
+}
+
+.side {
+  width: 18%;
+  height: 100vh;
+  background-color: rgba(26, 44, 100, 0.4);
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  border-right: 1px solid #2b6eeb;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+}
+
+.tab {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0.5rem;
+  padding: 1em 0;
+  border-radius: 0.5rem;
+}
+
+.tab h1 {
+  color: #fff;
+  padding: 0 0.6rem;
+  font-size: 1.2rem;
+  font-family: "montreal", sans-serif;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 1rem;
+}
+
+.flex_col_tabs,
+.last_tab {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.flex_col_tabs h2,
+.last_tab h2 {
+  color: #ccc;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-family: "sans", sans-serif;
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tab h1 {
+  border: none;
+}
+
+.tab a,
+.last_tab nav {
+  font-family: "sans", sans-serif;
+  cursor: pointer;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  transition: 0.4s all;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.tab a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+}
+
+/* Dashboard Content */
+.dashboard_content {
+  position: absolute;
+  right: 0;
+  width: 82%;
+  height: 100vh;
+}

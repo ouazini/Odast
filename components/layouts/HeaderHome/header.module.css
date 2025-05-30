@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav ul li {
+  font-family: "montreal", sans-serif;
+  font-size: 1.1rem;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cta_btn {
+  font-family: "montreal", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
