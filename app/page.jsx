@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./page.module.css";
+import styles from './page.module.css'
 import { HeaderHome } from "@/components/index";
 import { Button } from "@/components/ui/button";
 import { FeatherIcon, Link } from "lucide-react";
