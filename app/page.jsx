@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className={styles.content}>
           <h1>
-            Analytique des ressource d'eau et préduction de sessions séchresses.
+            Analytique des ressource d'eau et prédiction de sessions séchresses.
           </h1>
           <a href="#features">
             <Button
