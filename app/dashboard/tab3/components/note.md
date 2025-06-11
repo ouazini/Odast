@@ -1,4 +1,4 @@
-<!-- "use client";
+"use client";
 
 import * as React from "react";
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
@@ -28,25 +28,25 @@ import styles from "./chart.module.css";
 
 // ✅ Static data per region
 const regionData = {
-  Morocco: [
-    { date: "2024-06", desktop: 300, mobile: 500 },
-    { date: "2024-07", desktop: 350, mobile: 480 },
-    { date: "2024-08", desktop: 400, mobile: 470 },
-    { date: "2024-09", desktop: 420, mobile: 600 },
-    { date: "2024-10", desktop: 450, mobile: 650 },
-    { date: "2024-11", desktop: 480, mobile: 680 },
-    { date: "2024-12", desktop: 500, mobile: 700 },
-    { date: "2025-01", desktop: 520, mobile: 720 },
+  SPI: [
+    { date: "2024-06", SPI: 300, DRI(Drought Risk Index)e: 500 },
+    { date: "2024-07", SPI: 350, DRI(Drought Risk Index)e: 480 },
+    { date: "2024-08", SPI: 400, DRI(Drought Risk Index)e: 470 },
+    { date: "2024-09", SPI: 420, DRI(Drought Risk Index)e: 600 },
+    { date: "2024-10", SPI: 450, DRI(Drought Risk Index)e: 650 },
+    { date: "2024-11", SPI: 480, DRI(Drought Risk Index)e: 680 },
+    { date: "2024-12", SPI: 500, DRI(Drought Risk Index)e: 700 },
+    { date: "2025-01", SPI: 520, DRI(Drought Risk Index)e: 720 },
   ],
-  Spain: [
-    { date: "2024-06", desktop: 200, mobile: 300 },
-    { date: "2024-07", desktop: 250, mobile: 320 },
-    { date: "2024-08", desktop: 280, mobile: 350 },
-    { date: "2024-09", desktop: 300, mobile: 400 },
-    { date: "2024-10", desktop: 320, mobile: 420 },
-    { date: "2024-11", desktop: 340, mobile: 450 },
-    { date: "2024-12", desktop: 360, mobile: 470 },
-    { date: "2025-01", desktop: 380, mobile: 490 },
+  DRI: [
+    { date: "2024-06", SPI: 200, DRI(Drought Risk Index)e: 300 },
+    { date: "2024-07", SPI: 250, DRI(Drought Risk Index)e: 320 },
+    { date: "2024-08", SPI: 280, DRI(Drought Risk Index)e: 350 },
+    { date: "2024-09", SPI: 300, DRI(Drought Risk Index)e: 400 },
+    { date: "2024-10", SPI: 320, DRI(Drought Risk Index)e: 420 },
+    { date: "2024-11", SPI: 340, DRI(Drought Risk Index)e: 450 },
+    { date: "2024-12", SPI: 360, DRI(Drought Risk Index)e: 470 },
+    { date: "2025-01", SPI: 380, DRI(Drought Risk Index)e: 490 },
   ],
 };
 
@@ -156,4 +156,3 @@ export function RegionChart({ selectedRegion }) {
       </CardContent>
     </Card>
   );
-} -->
