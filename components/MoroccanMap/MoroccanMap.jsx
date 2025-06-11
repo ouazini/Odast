@@ -7,22 +7,68 @@ import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 import styles from "./box.module.css";
 
 const regionDetails = {
-  "Casablanca-Settat": {
-    title: "Casablanca-Settat",
-    description: "Casablanca-Settat is a major economic hub in Morocco.",
-    links: ["Elweed 1", "Elweed 2", "Elweed 3", "Elweed 4"],
+  "Tanger-Tétouan-Al Hoceïma": {
+    title: "Tanger-Tétouan-Al Hoceïma",
+    description: "Région située au nord du Maroc, connue pour ses villes côtières, son port de Tanger et la chaîne du Rif.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "L'Oriental": {
+    title: "L'Oriental",
+    description: "Région frontalière avec l’Algérie, marquée par un climat semi-aride et une richesse culturelle berbère.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Fès- Meknès": {
+    title: "Fès- Meknès",
+    description: "Région historique du centre-nord du Maroc, connue pour son patrimoine culturel et ses médinas ancestrales.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
   },
   "Rabat-Salé-Kénitra": {
     title: "Rabat-Salé-Kénitra",
-    description: "The capital region of Morocco.",
-    links: ["https://example.com/rabat"],
+    description: "Région de la capitale administrative du Maroc, alliant modernité, patrimoine et activité agricole.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Béni-Mellal-Khénifra": {
+    title: "Béni-Mellal-Khénifra",
+    description: "Région montagneuse du Moyen Atlas, caractérisée par ses ressources hydriques et agricoles abondantes.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Drâa-Tafilalet": {
+    title: "Drâa-Tafilalet",
+    description: "Région saharienne riche en oasis, palmeraies et patrimoine architectural du sud-est marocain.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Souss-Massa": {
+    title: "Souss-Massa",
+    description: "Région située entre montagnes et océan, célèbre pour son agriculture et la ville d’Agadir.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
   },
   "Marrakech-Safi": {
     title: "Marrakech-Safi",
-    description: "A famous tourist region.",
-    links: ["https://example.com/marrakech"],
+    description: "Région emblématique du tourisme marocain, mêlant patrimoine historique et côte atlantique.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Guelmim-Oued Noun": {
+    title: "Guelmim-Oued Noun",
+    description: "Porte du désert, cette région est connue pour ses traditions nomades et ses paysages arides.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Laâyoune-Sakia El Hamra": {
+    title: "Laâyoune-Sakia El Hamra",
+    description: "Région du sud du Maroc, caractérisée par son climat désertique et ses ressources halieutiques.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Dakhla-Oued Ed-Dahab": {
+    title: "Dakhla-Oued Ed-Dahab",
+    description: "Région côtière saharienne prisée pour les sports nautiques et la richesse de son littoral.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
+  },
+  "Casablanca-Settat": {
+    title: "Casablanca-Settat",
+    description: "Région la plus peuplée et dynamique économiquement du Maroc, abritant la métropole de Casablanca.",
+    links: ["Precipitaion : N\\A", " DRI : N\\A", "Température : N\\A"],
   },
 };
+
 
 const MoroccoMap = ({ setSelectedRegion, selectedRegion }) => {
   const chartRef = useRef(null);
