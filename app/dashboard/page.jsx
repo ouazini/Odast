@@ -13,14 +13,14 @@ export default async function DashboardPage() {
   }
 
   if (!session.user.approved) {
-    return <p>Your account is not approved yet.</p>;
+    return <p>pas encore autorisé</p>;
   }
 
   return (
     <main>
       <HeaderDashboard />
       <section className={styles.flex}>
-        <h1>Welcome to (X) dashboard!</h1>
+        <h1>Bienvenue Sur Odast!</h1>
 
         <div className={`${styles.content} flex flex-col gap-3`}>
           <h3>c'est quoi Odast</h3>
@@ -33,16 +33,14 @@ export default async function DashboardPage() {
           <h3>Start Browsing:</h3>
           <div className="flex items-center gap-3">
             <Link href="/dashboard/tab1" className={styles.btn}>
-              Tab one
-            </Link>
-            <Link href="/dashboard/tab1" className={styles.btn}>
-              Tab one
+              Prevision de la séchresses
             </Link>
             <Link href="/dashboard/tab2" className={styles.btn}>
-              Tab two
+              Analytiques de Barrages
+
             </Link>
             <Link href="/dashboard/tab3" className={styles.btn}>
-              Tab three
+             Analytiques de sources D'eau
             </Link>
           </div>
         </div>
@@ -50,4 +48,3 @@ export default async function DashboardPage() {
     </main>
   );
 }
-
