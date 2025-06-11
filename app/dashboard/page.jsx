@@ -23,12 +23,9 @@ export default async function DashboardPage() {
         <h1>Welcome to (X) dashboard!</h1>
 
         <div className={`${styles.content} flex flex-col gap-3`}>
-          <h3>What is (x)?</h3>
+          <h3>c'est quoi Odast</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-            incidunt accusamus optio voluptates eius, eligendi eum nam modi
-            quis! Eius veritatis corporis voluptatibus? Quisquam nesciunt
-            dignissimos ducimus, ex quae commodi?
+            ODAST est une plateforme d’analyse des ressources en eau et un tableau de bord de suivi et de prévision de la sécheresse. Elle fournit des informations exploitables à partir de données environnementales en temps réel pour soutenir une gestion durable de l’eau.
           </p>
         </div>
 
@@ -53,3 +50,4 @@ export default async function DashboardPage() {
     </main>
   );
 }
+
