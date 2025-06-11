@@ -11,7 +11,7 @@ export default function RootLayout({ children, session }) {
   return (
     <html lang="en">
       <head>
-        <title>My App</title>
+        <title>Odast</title>
       </head>
       <body>
         <SessionProvider session={session}>{children}</SessionProvider>
