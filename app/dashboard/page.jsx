@@ -30,7 +30,7 @@ export default async function DashboardPage() {
         </div>
 
         <div className={styles.btns}>
-          <h3>Start Browsing:</h3>
+          <h3>Naviguez mes analyse:s</h3>
           <div className="flex items-center gap-3">
             <Link href="/dashboard/tab1" className={styles.btn}>
               Prevision de la séchresses
