@@ -22,19 +22,19 @@ export default async function DashboardLayout({ children }) {
         {/* sidebar content */}
         <div className={styles.wrapper}>
           <div className={styles.tab}>
-            <h1>Welcome to X Dashboard</h1>
+            <h1>Bienvenue Sur Odast </h1>
 
             <div className={`${styles.flex_col_tabs}`}>
-              <h2>Main Menu</h2>
+              <h2>Menu principal</h2>
 
               <Link href="/dashboard/tab1">
-                <button>Tab One</button>
+                <button>Prevision de la séchresses</button>
               </Link>
               <Link href="/dashboard/tab2">
-                <button>Tab Two</button>
+                <button>Analytiques de Barrages</button>
               </Link>
               <Link href="/dashboard/tab3">
-                <button>Tab Three</button>
+                <button>Analytiques de sources D'eau</button>
               </Link>
             </div>
 
